@@ -1,0 +1,11 @@
+This requires:
+
+- frozensynapse-linux-32-1339710386.run
+- OpenAL (regular package for Slackware, compat32 for Slackware64)
+- multilib (Slackware64)
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib
+
+OpenAL is available at SlackBuilds.org. To build a 32bit compatibility package,
+follow the instructions given in the link above.

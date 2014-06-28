@@ -1,0 +1,7 @@
+This requires:
+
+- zen-puzzle-garden_1.3_i386.tar.gz
+- multilib (Slackware64)
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib

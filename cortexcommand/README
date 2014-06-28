@@ -1,0 +1,9 @@
+This requires one of the following:
+
+- cortex_command-1.0rc1-linux-amd64.bin
+- cortex_command-1.0rc1-linux-i686.bin
+
+Cortex Command saves its data inside the installation directory, not in some
+hidden directory in $HOME. So make sure you add your user to the group "games":
+
+su -c 'usermod -a -G games USERNAME'

@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+           |-----handy-ruler------------------------------------------------------|
+hammerfight: hammerfight (A 2-D physics combat game)
+hammerfight:
+hammerfight: Hammerfight is about 2D battles of flying machines equipped with
+hammerfight: various slashing, piercing and blunt weaponry. A unique combat system
+hammerfight: is based on realistic physics simulation, and it ties the movements
+hammerfight: of the rider to the movements of your mouse. As you wave the mouse,
+hammerfight: your rider swings his warhammer, smashing the foe into the wall!
+hammerfight:
+hammerfight: Home: http://www.koshutin.com/
+hammerfight:
+hammerfight:

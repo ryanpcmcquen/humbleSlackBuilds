@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+               |-----handy-ruler------------------------------------------------------|
+chocolatecastle: chocolatecastle (A sliding block puzzle game)
+chocolatecastle:
+chocolatecastle: Chocolate Castle is a tricky sliding block puzzle game. The object of
+chocolatecastle: each puzzle is to arrange blocks of chocolate into large connected
+chocolatecastle: regions so that they can then be consumed by a team of hungry
+chocolatecastle: animals. Munch your way through 120 rooms of hand-designed puzzles,
+chocolatecastle: or design your own with the built-in editor.
+chocolatecastle:
+chocolatecastle: Home: http://www.lexaloffle.com/choc.php
+chocolatecastle:
+chocolatecastle:

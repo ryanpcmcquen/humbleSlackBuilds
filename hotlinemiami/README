@@ -1,0 +1,7 @@
+This requires:
+
+- hotlinemiami_v1.0.9a-Linux_28-05-2013.tar.gz
+- multilib (Slackware64)
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib

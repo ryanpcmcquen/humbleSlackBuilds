@@ -1,0 +1,84 @@
+#!/bin/sh
+
+# Copyright 2012-2013 Dimitris Tsagkatakis <dtsagka@otenet.gr> Greece
+# All rights reserved.
+#
+# Redistribution and use of this script, with or without modification, is
+# permitted provided that the following conditions are met:
+#
+# 1. Redistributions of this script must retain the above copyright
+#    notice, this list of conditions and the following disclaimer.
+#
+#  THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+#  WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+#  MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO
+#  EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+#  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+#  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+#  OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+#  WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+#  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+#  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+PKGNAM=windosill
+SRCNAM=${SRCNAM:-Windosill-linux-1.0.7-1334787847}
+VERSION=${VERSION:-1.0.7}
+BUILD=${BUILD:-5}
+TAG=${TAG:-smsl}
+
+ARCH=i386
+
+CWD=$(pwd)
+TMP=${TMP:-/tmp}
+PKG=$TMP/package-$PKGNAM
+
+set -e
+
+rm -rf $PKG
+mkdir -p $TMP $PKG
+cd $TMP
+
+install -Dm755 $CWD/$SRCNAM $PKG/opt/hib/$PKGNAM/Windosill
+install -Dm644 $CWD/$PKGNAM.png $PKG/usr/share/pixmaps/$PKGNAM.png
+
+# Create a launcher under /usr/games
+mkdir -p $PKG/usr/games
+cat > $PKG/usr/games/$PKGNAM << EOF
+#!/bin/sh
+
+cd /opt/hib/$PKGNAM
+LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:/usr/lib/seamonkey \\
+  exec ./Windosill "\$@"
+EOF
+chmod 755 $PKG/usr/games/$PKGNAM
+
+# Create a menu entry
+mkdir -p $PKG/usr/share/applications
+cat > $PKG/usr/share/applications/$PKGNAM.desktop << EOF
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Windosill
+Comment=Explore a dream-like world of impossible wonders...
+Icon=/usr/share/pixmaps/$PKGNAM.png
+Exec=/usr/games/$PKGNAM
+Terminal=false
+Categories=Game;
+EOF
+
+mkdir -p $PKG/usr/doc/$PKGNAM-$VERSION
+cat $CWD/$PKGNAM.SlackBuild > $PKG/usr/doc/$PKGNAM-$VERSION/$PKGNAM.SlackBuild
+cat $CWD/README > $PKG/usr/doc/$PKGNAM-$VERSION/README.slack
+
+mkdir -p $PKG/install
+cat $CWD/doinst.sh > $PKG/install/doinst.sh
+cat $CWD/slack-desc > $PKG/install/slack-desc
+
+cd $PKG
+/sbin/makepkg -l y -c n $TMP/$PKGNAM-$VERSION-$ARCH-$BUILD$TAG.${PKGTYPE:-tgz}
+
+# Clean up
+cd $TMP
+set -e
+
+rm -rf $PKG

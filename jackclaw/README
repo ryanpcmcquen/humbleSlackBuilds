@@ -1,0 +1,20 @@
+This requires:
+
+- clawBeta3.zip
+- multilib (Slackware64)
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib
+
+Don’t expect much from this, as it is a prototype. The fullscreen mode messed
+up my screen resolution every time I exited the game, so this will default to
+windowed mode. If you lose your cursor at some point, use Ctrl+G to get it
+back. After installation, run (not as root I’d imagine) the script
+setup_user.sh that comes with the SlackBuild. Then, if you feel adventurous
+enough, you could mess around with your ~/.frozenbyte/claw/config/options.txt
+file for stuff like vsync, fullscreen etc.:
+
+render_use_vsync = 0 (change to 1 to enable)
+screen_height = 768
+screen_width = 1024
+windowed = 1 (change to 0 for fullscreen)

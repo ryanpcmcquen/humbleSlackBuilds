@@ -1,0 +1,11 @@
+This requires:
+
+- multilib (Slackware64)
+
+And one of the following:
+
+- lonesurvivor-1.11d-1-i386.tar.gz
+- lonesurvivor-1.11d-1-amd64.tar.gz
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib

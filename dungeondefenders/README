@@ -1,0 +1,11 @@
+This requires:
+
+- dundef-linux-03052013.mojo.run
+- multilib (Slackware64)
+- pulseaudio (Slackware i486) / pulseaudio-compat32 (Slackware64)
+
+You can find pulseaudio at SlackBuilds.org:
+http://slackbuilds.org/audio/pulseaudio/
+
+To setup multilib, and learn how to produce compat32 packages visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib

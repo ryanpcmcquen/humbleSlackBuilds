@@ -1,0 +1,7 @@
+This requires:
+
+- Shatter-Release-2013-06-09.sh
+- multilib (Slackware64)
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib

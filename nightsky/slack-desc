@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+        |-----handy-ruler------------------------------------------------------|
+nightsky: nightsky (A 2D platformer in which you control a ball)
+nightsky:
+nightsky: NightSky is an atmospheric, 2D physics puzzle platformer. The player
+nightsky: uses acceleration, gravity, and motion to navigate a glowing sphere
+nightsky: through over 130 unique and picturesque levels.
+nightsky:
+nightsky: Home: http://www.nicalis.com/nightsky/
+nightsky:
+nightsky:
+nightsky:
+nightsky:

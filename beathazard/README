@@ -1,0 +1,7 @@
+This requires:
+
+- beathazard-installer_03-08-13
+- multilib (Slackware64)
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib

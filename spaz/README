@@ -1,0 +1,7 @@
+This requires:
+
+- spaz-linux-humblebundle-09182012-bin
+- multilib (Slackware64)
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib

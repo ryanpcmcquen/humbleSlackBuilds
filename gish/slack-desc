@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+    |-----handy-ruler------------------------------------------------------|
+gish: gish (A physics based, 2D sidescroller)
+gish:
+gish: Gish isn't your average hero; in fact he's not your average anything.
+gish: You see, Gish is a ball of tar. A Sunday stroll with his lady friend
+gish: Brea goes awry when a shadowy figure emerges from an open manhole and
+gish: pulls Brea into the ground below. Following Brea's calls for help,
+gish: Gish suddenly finds himself in the subterranean sewers of Dross, a
+gish: long forgotten city filled with twisting corridors, evil traps and
+gish: some of the most demented creatures imaginable.
+gish:
+gish: Home: http://www.chroniclogic.com/gish.htm

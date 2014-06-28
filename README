@@ -1,0 +1,21 @@
+
+http://someslack.wordpress.com/humble-bundle-slackbuilds/
+
+These SlackBuilds provide a clean installation of the Humble Indie Bundle games
+on a Slackware machine. They are meant to be used only on Slackware's latest
+stable release. Of course, you will need a copy of each game, usually the
+tarball or, when there is no tarball, the *.sh/bin/run installer.
+
+The games are installed under /opt/hib/<game>/, and a launcher under
+/usr/games/ (Slackware's default path for game executables).
+
+A default Slackware installation has 95% of the libraries you'll need (and I
+generally leave the libraries that come bundled with the games alone, unless
+they become a problem). As for the rest, like OpenAL or Mono, you can get from
+slackbuilds.org. Also, some of the games are 32bit-only, so if you're running
+Slackware64, you'll have to setup multilib first. To do this, have a look at
+Eric Hameleers' wiki page:
+
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib
+
+File "hb-slackbuilds-latest.zip" contains all latest SlackBuilds.

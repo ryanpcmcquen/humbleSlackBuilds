@@ -1,0 +1,7 @@
+This requires:
+
+- limbo-1.3.tar.gz
+- multilib (Slackware64)
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib

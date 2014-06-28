@@ -1,0 +1,17 @@
+This requires:
+
+- Awesomenauts-Linux-2013-5-21-3.bin
+- multilib (Slackware64)
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib
+
+NOTE #1: This is the DRM-free version of Awesomenauts. It only works offline with
+bots, or your local friends on the same computer. If you want to play this
+online and with its DLC, you must redeem it on Steam.
+
+NOTE #2: The first time you run the game, you'll be presented with a dialog to
+configure basic options (e.g. resolution, vsync). To access this dialog again,
+run the game from the command line, like this:
+
+awesomenauts --settings

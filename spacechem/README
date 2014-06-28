@@ -1,0 +1,13 @@
+This requires:
+
+- libgdiplus
+- mono
+- multilib (Slackware64)
+
+And one of the following:
+
+- spacechem-1.0.12-2.fc17.i686.rpm
+- spacechem-1.0.12-2.fc17.x86_64.rpm
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib

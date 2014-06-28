@@ -1,0 +1,7 @@
+This requires:
+
+- multilib (Slackware64)
+- swordandsworcery_1.02.tar.gz
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib

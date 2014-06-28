@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+          |-----handy-ruler------------------------------------------------------|
+botanicula: botanicula (A point-and-click exploration game)
+botanicula:
+botanicula: Botanicula is point'n'click exploration game created by Jára Plachý
+botanicula: and Amanita Design. It's about a bunch of five friends - little tree
+botanicula: creatures who set out for a journey to save the last seed from their
+botanicula: home tree which is infested by evil parasites.
+botanicula:
+botanicula: Home: http://amanita-design.net/games/botanicula.html
+botanicula:
+botanicula:
+botanicula:

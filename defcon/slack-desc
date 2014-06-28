@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+      |-----handy-ruler------------------------------------------------------|
+defcon: defcon (A real-time strategy game)
+defcon:
+defcon: DEFCON is a multi-player strategic game of thermonuclear war, where
+defcon: you assume the role of a military leader in charge og one of six
+defcon: world territories. The common aim in DEFCON is to wipe out the
+defcon: population and units of the other territories whilst protecting your
+defcon: own.
+defcon:
+defcon: Home: http://www.introversion.co.uk/defcon/
+defcon:
+defcon:

@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+            |-----handy-ruler------------------------------------------------------|
+blocksmatter: blocksmatter (A puzzle-solving platformer)
+blocksmatter:
+blocksmatter: You are the Tetrobot: a tiny robot that can drill blocks of matter
+blocksmatter: one by one, collect them, and recycle them into new pieces of 4
+blocksmatter: blocks. You also have the possibility to destroy lines of 8+ blocks
+blocksmatter: in a very «retro russian» game style.
+blocksmatter:
+blocksmatter: Home: http://www.swingswingsubmarine.com/games/blocks-that-matter/
+blocksmatter:
+blocksmatter:
+blocksmatter:

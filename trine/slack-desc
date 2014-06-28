@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+     |-----handy-ruler------------------------------------------------------|
+trine: trine (A fully interactive physics-based action game)
+trine:
+trine: Trine is a physics-based action game where three characters allow
+trine: clever solutions to challenges created by hazardous puzzles and
+trine: threatening enemies. The gameplay is based on fully interactive
+trine: physics - each character's different abilities and tactics can be
+trine: used to invent new ways to overcome obstacles and save the kingdom!
+trine:
+trine: Home: http://trine-thegame.com/site/
+trine:
+trine:

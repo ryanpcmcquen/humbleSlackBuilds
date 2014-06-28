@@ -1,0 +1,7 @@
+This requires:
+
+- AnomalyWarzoneEarth-Installer_Humble_Linux_1364850491.zip
+- multilib (Slackware64)
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib

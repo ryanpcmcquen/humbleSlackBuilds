@@ -1,0 +1,7 @@
+This requires:
+
+- dynamitejack-1.0.23.tgz
+- multilib (Slackware64)
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib

@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+       |-----handy-ruler------------------------------------------------------|
+shatter: shatter (A retro-inspired brick-breaking game)
+shatter:
+shatter: Shatter is a fresh take on brick-breakers, adding new physics-based
+shatter: concepts to alter the trajectory of every ball in play. Combined with
+shatter: an amazing soundtrack by electronic musician Module and intense boss
+shatter: battles, Shatter combines fantastic music with tight gameplay and
+shatter: frantic action.
+shatter:
+shatter: Home: http://www.shattergame.com/
+shatter:
+shatter:

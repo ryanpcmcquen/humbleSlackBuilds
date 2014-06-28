@@ -1,0 +1,107 @@
+#!/bin/sh
+
+# Copyright 2013 Dimitris Tsagkatakis <dtsagka@otenet.gr> Greece
+# All rights reserved.
+#
+# Redistribution and use of this script, with or without modification, is
+# permitted provided that the following conditions are met:
+#
+# 1. Redistributions of this script must retain the above copyright
+#    notice, this list of conditions and the following disclaimer.
+#
+#  THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+#  WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+#  MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO
+#  EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+#  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+#  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+#  OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+#  WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+#  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+#  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+PKGNAM=oilrush
+SRCNAM=${SRCNAM:-OilRush_1.35_Linux_1370041755.run}
+VERSION=${VERSION:-1.35}
+BUILD=${BUILD:-2}
+TAG=${TAG:-smsl}
+
+if [ -z "$ARCH" ]; then
+  [[ "$(uname -m)" = x86_64 ]] && ARCH=x86_64 || ARCH=i386
+fi
+
+[[ "$ARCH" = x86_64 ]] && ARCHSUFFIX=x64 || ARCHSUFFIX=x86
+
+EXTRA_DLC=${EXTRA_DLC:-yes}
+MAPPACK=oil_rush_tower_defense_map_pack.zip
+
+CWD=$(pwd)
+TMP=${TMP:-/tmp}
+PKG=$TMP/package-$PKGNAM
+
+set -e
+
+rm -rf $PKG
+mkdir -p $TMP $PKG
+cd $TMP
+rm -rf $PKGNAM-$VERSION
+mkdir $PKGNAM-$VERSION
+cd $PKGNAM-$VERSION
+sh $CWD/$SRCNAM --tar -xvf
+[[ "$EXTRA_DLC" = yes ]] && unzip $CWD/$MAPPACK *.ung -d ./data
+chown -R root:root .
+chmod -R u+w,go+rX-w,a-s .
+
+mkdir -p $PKG/opt/hib/$PKGNAM
+cp -a bin data oilrush.cfg $PKG/opt/hib/$PKGNAM/
+install -Dm644 data/launcher/oilrush.png $PKG/usr/share/pixmaps/$PKGNAM.png
+
+if [ "$ARCH" = x86_64 ]; then
+  rm -f $PKG/opt/hib/$PKGNAM/bin/*x86* $PKG/opt/hib/$PKGNAM/bin/libopenal.so.1
+else
+  rm -f $PKG/opt/hib/$PKGNAM/bin/*x64*
+fi
+
+# Create a launcher for the game
+mkdir -p $PKG/usr/games
+cat > $PKG/usr/games/$PKGNAM << EOF
+#!/bin/sh
+
+export LD_LIBRARY_PATH=./bin:\$LD_LIBRARY_PATH
+unset LIBGL_ALWAYS_INDIRECT
+unset QT_PLUGIN_PATH
+
+cd /opt/hib/$PKGNAM/bin
+exec ./launcher_${ARCHSUFFIX} -config ../data/launcher/launcher.xml
+EOF
+chmod 755 $PKG/usr/games/$PKGNAM
+
+# Create a menu entry
+mkdir -p $PKG/usr/share/applications
+cat > $PKG/usr/share/applications/$PKGNAM.desktop << EOF
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Oil Rush
+Comment=A naval strategic game.
+Icon=/usr/share/pixmaps/$PKGNAM.png
+Exec=/usr/games/$PKGNAM
+Terminal=false
+Categories=Game;
+EOF
+
+mkdir -p $PKG/usr/doc/$PKGNAM-$VERSION
+cp -p documentation/* $PKG/usr/doc/$PKGNAM-$VERSION/
+cat $CWD/$PKGNAM.SlackBuild > $PKG/usr/doc/$PKGNAM-$VERSION/$PKGNAM.SlackBuild
+cat $CWD/README > $PKG/usr/doc/$PKGNAM-$VERSION/README.slack
+
+mkdir -p $PKG/install
+cat $CWD/doinst.sh > $PKG/install/doinst.sh
+cat $CWD/slack-desc > $PKG/install/slack-desc
+
+cd $PKG
+/sbin/makepkg -l y -c n $TMP/$PKGNAM-$VERSION-$ARCH-$BUILD$TAG.${PKGTYPE:-tgz}
+
+# Clean up
+cd $TMP
+rm -rf $PKG $PKGNAM-$VERSION

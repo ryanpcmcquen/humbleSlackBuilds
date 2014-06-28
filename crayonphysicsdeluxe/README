@@ -1,0 +1,12 @@
+This requires:
+
+- crayon_physics_deluxe-linux-release55.tar.gz
+
+Slackware64 also needs:
+
+- multilib
+- 32bit libogg (download the i486 package and convert it with convertpkg32)
+- 32bit icu4c (same as above)
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib

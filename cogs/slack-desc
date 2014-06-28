@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+    |-----handy-ruler------------------------------------------------------|
+cogs: cogs (A puzzle game where you build machines from sliding tiles)
+cogs:
+cogs: Cogs is an award-winning puzzle game. Immersed in a steampunk world
+cogs: with stunning visual design, Cogs players build an incredible variety
+cogs: of machines from sliding tiles. With 50 unique levels and three
+cogs: gameplay modes, we've packed in hours of entertaining, addictive fun.
+cogs:
+cogs: Home: http://www.cogsgame.com/
+cogs:
+cogs:
+cogs:

@@ -1,0 +1,7 @@
+This requires one of the following:
+
+- botanicula-20120501-(amd64/i386).tar.gz (both are 32bit)
+- multilib (Slackware64)
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib

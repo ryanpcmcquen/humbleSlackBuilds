@@ -1,0 +1,12 @@
+The Linux port is horribly slow. This is a known issue. Until this is fixed,
+I highly recommend running the Windows version through Wine which works as
+expected. You can find Slackware packages for Wine (both 32-bit and 64-bit) at
+http://sourceforge.net/projects/wine/files/Slackware%20Packages/
+
+If you still want to run the Linux port, it requires:
+
+- vessel-02222013-bin
+- multilib (Slackware64)
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib

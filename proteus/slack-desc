@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+       |-----handy-ruler------------------------------------------------------|
+proteus: proteus (A game of audio-visual exploration and discovery)
+proteus:
+proteus: Proteus is a game of audio-visual exploration and discovery that has
+proteus: you wandering an exotic, mysterious island. Frolic across the
+proteus: landscape, revel in the changing seasons, lose yourself in the
+proteus: ambient sounds. Every world is randomly generated, so each play is
+proteus: just as refreshing and wondrous as the first. As you explore the
+proteus: island and discover its secrets, Proteus is sure to inspire a
+proteus: childlike wonder and delight.
+proteus:
+proteus: Homepage: http://www.visitproteus.com/

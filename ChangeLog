@@ -1,0 +1,355 @@
+November 9, 2013
+- I won't be providing updates to the scripts, nor add new games in the future.
+  Thanks everyone for your input, kind words, and for using the SlackBuilds. It
+  felt nice to share them :-)
+
+August 6, 2013
+- lugaru: updated SlackBuild for new versions: lugaru-linux-<VERSION>-bin.
+
+July 14, 2013
+- vessel: after realizing how slow is the Linux port, I thought I should
+  mention this in the README: just play the Windows version using Wine.
+
+July 6, 2013
+- edge: updated to 20130705.
+- shatter: updated to 1.02_20130609.
+- tokitori: updated to 20130705.
+
+July 4, 2013
+- edge, tokitori: updated to 20130703.
+
+July 3, 2013
+- stealthbastard: updated to 1.63.9.
+
+July 2, 2013
+- brokensword: updated to 1.0.800.
+
+June 26, 2013
+- mcpixel: added.
+
+June 21, 2013 (b)
+- stealthbastard: updated SlackBuild for the new tarball. The game version
+  remains the same.
+
+June 21, 2013 (a)
+- rochard: updated SlackBuild for the new tarballs. The game version remains
+  the same.
+
+June 19, 2013 (b)
+- stealthbastard: updated to 1.63.4.
+
+June 19, 2013 (a)
+- Added "The Humble Bundle with Android 6": brokensword, fractal, organtrail,
+  stealthbastard.
+- aquaria: use of the tarball instead of the mojo installer.
+
+June 17, 2013
+- brutallegend, costumequest, stacking: updated for newer versions.
+- rochard: updated to 1.42.
+
+June 14, 2013
+- capsized: updated SlackBuild for newer versions.
+- wizorb: added mono as a dependency.
+- Scripts from s (stacking) through z (zenpuzzlegarden) edited (see May 30,
+  2013, "Changes made globally").
+
+June 12, 2013
+- tinyandbig: updated to 1.4.1_1370968537.
+- Scripts starting with s (from samorost to splice) edited (see May 30, 2013,
+  "Changes made globally").
+
+June 11, 2013
+- dearesther: updated to 20130608. This is the actual Linux port of Dear
+  Esther.
+
+June 10, 2013
+- capsized: updated to 20130610.
+
+June 8, 2013
+- proteus: updated to 20130608.
+
+June 7, 2013
+- tinyandbig: updated to 1.4.1.
+
+June 6, 2013
+- Scripts from o (offspringfling) through r (rochard) edited (see May 30,
+  2013, "Changes made globally").
+- Modified oilrush.SlackBuild to include the extra DLC (map-pack). You can
+  disable this with EXTRA_DLC=no.
+
+June 5, 2013
+- englishcountrytune, intrusion2, oilrush, tinyandbig: added.
+- Scripts from j (jackclaw) through n (nightsky) edited. (see May 30, 2013,
+  "Changes made globally").
+
+June 4, 2013
+- capsized: updated to 20130603.
+- isaac: updated the "Wrath of the Lamb" edition.
+- hammerfight, isaac: edited (see May 30, 2013, "Changes made globally").
+
+June 2, 2013
+- dearesther: added.
+
+May 31, 2013
+- capsized, proteus: updated to 20130530.
+- grimrock: updated to 1.37.
+- Edited scripts from d (darwinia) to g (gsb) (see May 30, 2013, "Changes made
+  globally").
+
+May 30, 2013
+- awesomenauts, capsized, hotlinemiami, littleinferno, proteus,
+  thomaswasalone: added (Humble Indie Bundle 8). As for "Dear Esther", I
+  haven't figured out how to bypass the graphical installer yet. This is
+  actually a crossover bottle. Fortunately, there is a native port in the
+  making (by Icculus).
+- chocolatecastle: fixed typo.
+- torchlight: updated to 1.15_20130521.
+- Changes made globally:
+  - use of SRCNAM variable in SlackBuilds.
+  - 32-bit games yield "i386" packages, regardless of the system.
+  - default PKGTYPE changed from txz to tgz.
+  - so far, I have edited 30 scripts: games from a (amnesia) to c
+    (crayonphysicsdeluxe), plus the games listed above. The rest are coming.
+
+May 8, 2013
+- Added three new games from the Humble Double Fine Bundle: brutallegend,
+  costumequest, stacking.
+
+May 7, 2013
+- psychonauts: updated to 05062013.
+- superhexagon: due to constant updates, I modified the script to automatically
+  determine VERSION.
+
+May 1, 2013
+- superhexagon: updated to 16_1367347732.
+
+April 23, 2013
+- superhexagon: updated to 16.
+
+April 11, 2013
+- anomaly: updated to 1364850491.
+
+April 9, 2013
+- atomzombiesmasher: updated to 1.953. Finally, they provided a proper package.
+  The bundled libraries seem to work fine now, so no extra deps are required.
+
+March 9, 2013
+- beathazard: updated to 1.67.
+
+March 7, 2013
+- superhexagon: updated to version 15.
+
+March 6, 2013
+- Added "The Humble Bundle with Android 5": beathazard, dungeondefenders (see
+  below), dynamitejack, solar2 and superhexagon. nightsky had already a Slack-
+  Build.
+- dungeondefenders: the new version (7.48) has additional DLC. This requires the
+  PulseAudio library (32-bit). Also it no longer suffers from the SDL bug the
+  previous build did.
+
+February 23, 2013
+- vessel: updated to 02222013.
+
+February 18, 2013
+- trine: use trine-launcher to start the game (instead of trine-bin directly)
+  because trine-launcher provides configuration options that are not exposed
+  by the game's options menu.
+
+January 19, 2013
+- wakingmars: updated to 1.2.1.
+
+January 16, 2013
+- offspringfling: updated to 1.1.3.
+
+January 11, 2013
+- psychonauts: updated to 01042012.
+- shank2: updated to "update7".
+
+January 5, 2013
+- shank2: updated to "update5".
+
+January 3, 2013
+- closure: updated to 1.1_20121228.
+- shank2: updated to "update3".
+
+December 29, 2012
+- shank2: updated to "update2".
+
+December 27, 2012
+- basement, offspringfling: added.
+
+December 25, 2012
+- closure: updated to 1.1_20121222.
+- grimrock: updated to 1.3.6_20121222.
+
+December 23, 2012
+- cavestoryplus: updated SlackBuild for cave_story_plus-linux-r100.tar.bz2.
+- revengeofthetitans: updated to 180.20.
+
+December 21, 2012
+- dungeondefenders: added a workaround-fix for those experiencing the "XIO:
+  fatal IO error 11" issue (see the accompanying README). Now that I could test
+  the game, I also changed $VERSION from "12182012" to the proper one, 7.46c.
+- shank2: added.
+
+December 20, 2012
+- Added Humble Indie Bundle 7: closure, dungeondefenders, grimrock, snapshot.
+  Note 1: dungeondefenders fails to run on my system (and I'm not alone).
+  Note 2: shank2 will be added as soon as they upload a non-corrupted tarball.
+- isaac: added hib7 version to the existing SlackBuild.
+
+December 16, 2012
+- vessel: removed OpenAL from the listed dependencies.
+
+December 15, 2012
+- vessel: added.
+
+December 6, 2012
+- revengeofthetitans: updated to 180.19, removed libogg-compat32 and
+  libvorbis-compat32 from Slackware64's list of dependencies; they are now part
+  of Eric Hameleers' multilib bundle.
+- wakingmars: updated to 1.1.
+
+November 21, 2012
+- splice: updated to 1353389454.
+
+November 19, 2012
+- eufloria: updated to 1.0.1.
+- revengeofthetitans: updated to 180.18.
+
+November 18, 2012
+- wakingmars: removed bundled libopenal that caused random lock-ups. For more
+  information, see the enclosed README file.
+
+November 16, 2012
+- Fixed a typo in canabalt's README i.e. a misspelled link to my ftp server.
+
+November 14, 2012
+- Added "Humble Voxatron Debut" and "Humble Introversion Bundle":
+  blocksmatter, chocolatecastle, darwinia, defcon, dredmor, isaac,
+  jaspersjourneys, multiwinia, voxatron, zenpuzzlegarden.
+
+November 13, 2012
+- wakingmars: updated to 1.0.4.
+
+November 9, 2012
+- Added Humble Bundle for Android 4: eufloria, splice, wakingmars.
+
+October 25, 2012
+- crayonphysicsdeluxe: updated SlackBuild to use the new copy provided by
+  the Humble Bundle page. Added icu4c (32bit) as a listed dependency for
+  Slackware64.
+
+October 24, 2012
+- Edited most of the *.desktop files to add a file extension to the field
+  "Icon". The reason is that the application menu of the newer XFCE (4.10)
+  won't display the icons of the games otherwise.
+
+October 22, 2012
+- aquaria, penumbra: added.
+
+October 21, 2012
+- gish, lugaru: added.
+
+October 13, 2012
+- cortexcommand: updated to 1.0rc1.
+- rochard: updated to 1.32.
+
+October 9, 2012
+- atomzombiesmasher: the script now requires the latest update patch (1.94).
+- bit.trip.runner, crayonphysicsdeluxe, fieldrunners: removed the part that
+  downloaded additional libraries; they now run fine on Slackware 14.0.
+- shadowgrounds: removed a bunch of bundled libraries that prevented the game
+  from running on Slackware 14.0.
+- survivor: same as above.
+- torchlight: updated to 1.15_20120926.
+* All SlackBuilds now include a README file that contains information such as
+  the name of the required game copy, possible dependencies, and other notes.
+* All packages are now installed under /opt/hib/<game> instead of /opt/<game>.
+  The reason is that the number of the games is getting bigger and bigger, so
+  it's better to have them in a separate folder. sh launchers remain in
+  /usr/games/.
+* All builds have been tested on Slackware 14.0, which is the latest stable
+  release, and the only one that I'll be maintaining the scripts for.
+
+September 29, 2012
+- rochard: updated to 1.31.
+
+September 27, 2012
+- bit.trip.runner: updated to 1.0_4.
+- spirits: updated to 1.0.1_120903.
+
+September 26, 2012
+- anomaly: minor modification to the script. Nothing important.
+- bit.trip.beat: updated to 1.0_5.
+- bit.trip.runner: updated to 1.0_3. $GET_LIBS now defaults to "no" (see
+  SlackBuild).
+- fieldrunners: updated to 1.0.0_1346296515 (32bit) and 1.0.0_1346776333
+  (64bit). Added fix for stuttering audio (thanks to the Arch folks).
+- jamestown: modified SlackBuild, to remove excess unpacked data, to free-up
+  space in $TMP a bit earlier.
+- spacechem: updated to 1.0.12_2 and switched from deb to rpm.
+- swordandsworcery: updated to 1.02 (thanks Thraphyx).
+- torchlight: updated to 1.15_20120924.
+- wizorb: added.
+
+September 21, 2012
+- Fixed a mistake in torchlight's SlackBuild: there was a hardcoded reference
+  'lib64' which is now changed to 'lib$LIBDIRSSUFFIX'.
+- Small 'cosmetic' change to shatter's SlackBuild, the resulted package is
+  100% the same though :-)
+
+September 20, 2012
+- Added Humble Indie Bundle 6: dustforce, rochard, shatter, spaz, torchlight.
+
+September 1, 2012
+- Updated frozensynapse (1.0.32).
+
+August 25, 2012
+- Fixed fieldrunners SlackBuild; the new version (1.0.0_1345663134) needs a
+  more recent libc.so than the one provided by Slackware 13.37.
+- Updated psychonauts (08152012).
+
+August 24, 2012
+- Updated fieldrunners (1.0.0_1345663134).
+
+August 17, 2012
+- Added Humble Bundle for Android 3: bit.trip.beat, fieldrunners, (spacechem),
+  uplink, spirits.
+- Updated spacechem (same version, different package names from Humble Bundle).
+
+July 1, 2012
+- Updated amnesia (1.2.1_3) and lonesurvivor (1.11d_1).
+
+June 29, 2012
+- Fixed a flaw of the SlackBuilds; all the scripts would proceed regardless of
+  errors (e.g. an unsuccessful extraction of the game archive) when run like
+  this:
+  $ sh game.SlackBuild
+  Now the scripts use "set -e" instead of the "#!/bin/sh -e" shebang line.
+
+June 22, 2012
+- Removed an escaped backslash from amnesia and swordandsworcery SlackBuilds
+  that caused a (harmless) error when updating the desktop database.
+- Updated bastion (20120620).
+
+June 14, 2012
+- Removed conflicting libstdc++.so.6 from braid (thanks 414N).
+
+June 10, 2012
+- Updated limbo (1.3)
+
+June 7, 2012
+- Updated limbo (1.2), supermeatboy (06072012), and psychonauts (06042012).
+- Added HIB V bonus game, lonesurvivor.
+
+June 4, 2012
+- Added Humble Indie Bundle V: amnesia, bastion, limbo, psychonauts,
+  swordandsworcery.
+
+May 15, 2012
+- Updated botanicula (20120501). The new tarball doesn't need an Adobe AIR
+  installation.
+
+May 2, 2012
+- Updated botanicula (1.1_1335898043).

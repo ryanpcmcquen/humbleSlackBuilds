@@ -1,0 +1,9 @@
+This requires:
+
+- OilRush_1.35_Linux_1370041755.run
+- oil_rush_tower_defense_map_pack.zip (optional)
+- OpenAL (Slackware64)
+
+If you don't want the 1.8gb map-pack included, run the SlackBuild with:
+
+EXTRA_DLC=no ./oilrush.SlackBuild

@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+             |-----handy-ruler------------------------------------------------------|
+frozensynapse: frozensynapse (A simultaneous-turn-based game)
+frozensynapse:
+frozensynapse: In Frozen Synapse both players take their turns at the same time,
+frozensynapse: commit them, then watch the results. Matches take place between two
+frozensynapse: players, or between the player and the computer.Each player is dealt
+frozensynapse: a "hand" of units: these have different capabilities, weapons and
+frozensynapse: ranges. The game is about pure tactics and outwitting your opponent.
+frozensynapse:
+frozensynapse: Home: http://www.frozensynapse.com/
+frozensynapse:
+frozensynapse:

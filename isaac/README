@@ -1,0 +1,11 @@
+This requires one of the following:
+
+- binding-of-isaac_20111101_i386.tar.gz
+- the_binding_of_isaac_wrath_of_the_lamb-linux.tar.gz
+
+Slackware64 also requires:
+
+- multilib
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib

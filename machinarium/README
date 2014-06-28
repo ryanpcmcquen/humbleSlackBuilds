@@ -1,0 +1,7 @@
+This requires:
+
+- Machinarium_full_en.tar.gz
+- multilib (Slackware64)
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib

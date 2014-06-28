@@ -1,0 +1,7 @@
+This requires:
+
+- penumbra_overture_1.1.sh
+- multilib (Slackware64)
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib

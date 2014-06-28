@@ -1,0 +1,7 @@
+This requires:
+
+- WakingMars-1.2.1-Linux.tar.gz
+- multilib (Slackware64)
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib

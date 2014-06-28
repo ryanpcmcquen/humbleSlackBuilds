@@ -1,0 +1,19 @@
+This requires:
+
+- multilib (Slackware64)
+    
+And one of the following:
+
+- Canabalt_for_Browser-1331763153.zip (needs flashplayer-plugin)
+- Canabalt2P_AIR-1331587946.air (needs adobe-air-sdk)
+
+The flash edition runs inside your web browser, whereas the "AIR" is like a
+standalone app. If you prefer the latter, run the SlackBuild like this:
+
+EDITION=air ./canabalt.SlackBuild
+
+adobe-air-sdk for Linux is no longer maintained by Adobe. You can grab the
+SlackBuild from ftp://someslack.myftp.org/builds
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib

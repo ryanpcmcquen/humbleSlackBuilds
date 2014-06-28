@@ -1,0 +1,24 @@
+The "browser" edition (default) requires:
+
+- McPixel_1372117132.tar.gz
+- flash-player-plugin
+
+Note: you can pick the web browser of your choice by running the SlackBuild like
+this (example):
+
+BROWSER=google-chrome mcpixel.SlackBuild
+
+Default value is "firefox".
+
+--------------------------------------------------------------------------------
+
+The "air" edition requires
+
+- mcpixel-linux-air-final.zip
+- adobe-air-sdk (available at ftp://someslack.myftp.org/builds/adobe-air-sdk)
+- multilib (Slackware64)
+
+To install the air edition, run the SlackBuild with EDITION=air.
+
+To setup multilib, visit:
+http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:multilib
